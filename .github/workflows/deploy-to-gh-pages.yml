@@ -21,6 +21,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_BRANCH: master
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: Functional-Report # The folder the action should deploy.
+          FOLDER: ./Functional-Report # The folder the action should deploy.

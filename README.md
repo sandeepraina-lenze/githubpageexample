@@ -5,10 +5,10 @@ date: "April 10, 2016"
 output: html_document
 ---
 
-<<insertHTML:[.\Functional-Report\Index.html]
+<<insertHTML:[Functional-Report\index.html]
 
 ```{r, echo=FALSE}
-htmltools::includeHTML(".\Functional-Report\Index.html")
+htmltools::includeHTML("Functional-Report\index.html")
 ```
 
 etc, etc, etc

@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Employees","Add a new employee detail","FAILURE","2020-05-27T07:20:16.250944Z[Etc/UTC]","0.0","1.31"
-"Employees","Search the newly added employee name","FAILURE","2020-05-27T07:20:17.792511Z[Etc/UTC]","0.0","0.3"

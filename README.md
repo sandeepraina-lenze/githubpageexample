@@ -1,4 +1,17 @@
-[link to Google!](http://google.com)
+---
+title: "Introduction"
+author: "chinsoon12"
+date: "April 10, 2016"
+output: html_document
+---
+
+<<insertHTML:[.\Functional-Report\Index.html]
+
+```{r, echo=FALSE}
+htmltools::includeHTML(".\Functional-Report\Index.html")
+```
+
+etc, etc, etc
 
 ## Welcome to GitHub Pages
 

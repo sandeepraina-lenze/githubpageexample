@@ -12,12 +12,7 @@ jobs:
         with:
           persist-credentials: false 
 
-      - name: Install and Build 🔧
-        run: |
-          npm install
-          npm run-script build
-
-      - name: Deploy 🚀
+     - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

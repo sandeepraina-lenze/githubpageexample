@@ -14,6 +14,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.5.3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: master
+          BRANCH: gh-pages
           FOLDER: Functional-Report # The folder the action should deploy.
           TARGET_FOLDER: Functional-Report

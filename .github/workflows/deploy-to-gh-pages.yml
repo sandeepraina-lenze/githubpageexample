@@ -15,5 +15,5 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: master
-          FOLDER: deploy # The folder the action should deploy.
-          TARGET_FOLDER: Report
+          FOLDER: Functional-Report # The folder the action should deploy.
+          TARGET_FOLDER: Functional-Report
